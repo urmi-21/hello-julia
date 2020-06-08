@@ -17,3 +17,11 @@ num3=convert(Float64,num1)
 println("n3: ",num3," ",typeof(num1))
 
 #%%
+
+#%%
+function funcA(x)
+    return x*5
+end
+println(funcA(2))
+println(funcA([2,22]))
+#%%
